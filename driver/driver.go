@@ -32,7 +32,7 @@ func (c *CustomizedClient) GetDeviceData(visitor *VisitorConfig) (interface{}, e
 		if c.intMaxValue <= 0 {
 			return nil, fmt.Errorf("max value is %d, should > 0", c.intMaxValue)
 		}
-		return rand.Intn(c.intMaxValue), nil
+		return 12, nil
 	} else if visitor.DataType == "float" {
 		return rand.Float64(), nil
 	} else {
