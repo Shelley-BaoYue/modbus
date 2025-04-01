@@ -26,13 +26,13 @@ type ProtocolConfig struct {
 
 type ConfigData struct {
 	// TODO: add your protocol config data
-	DeviceID   int    `json:"deviceID,omitempty"`
-	SerialPort string `json:"serialPort"`
-	DataBits   int    `json:"dataBits"`
-	BaudRate   int    `json:"baudRate"`
-	Parity     string `json:"parity"`
-	StopBits   int    `json:"stopBits"`
-	ProtocolID int    `json:"protocolID"`
+	DeviceID   int    `json:"DeviceID,omitempty"`
+	SerialPort string `json:"SerialPort"`
+	DataBits   int    `json:"DataBits"`
+	BaudRate   int    `json:"BaudRate"`
+	Parity     string `json:"Parity"`
+	StopBits   int    `json:"StopBits"`
+	ProtocolID int    `json:"ProtocolID"`
 }
 
 type VisitorConfig struct {
@@ -42,5 +42,5 @@ type VisitorConfig struct {
 
 type VisitorConfigData struct {
 	// TODO: add your visitor config data
-	DataType string `json:"dataType"`
+	DataType string `json:"DataType"`
 }
